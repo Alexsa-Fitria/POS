@@ -17,7 +17,7 @@ Route::prefix('category')->group(function () {
     Route::get('/baby-kid', [ProductController::class, 'babyKid']);
 });
 
-// Halaman User dengan route param
+// Halaman User dengan route 
 Route::get('/user/{id}/name/{name}', [UserController::class, 'profile']);
 
 // Halaman Penjualan
